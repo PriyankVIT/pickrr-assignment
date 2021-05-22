@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro {
+  background-color: #263f97;
+  color: white;
+}
+.introrow {
+  width: 90%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+.headingmain h1 {
+  font-size: 48px;
+  width: 90%;
+  padding-top: 100px;
+}
+.headingmain p {
+  font-size: 14px;
+  width: 85%;
+  color: #afafaf;
+}
+.headingmain a {
+  color: #ff756c;
+}
+.headingmain > h1 > strong > span {
+  color: #95ffff;
+}
+.introimg > img {
+  width: 430px;
+  height: 460px;
+}
+
+.ship {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.shipheading {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  color: #263f97;
+  padding-top: 100px;
+}
+.shipheading > strong > span {
+  color: #ff756c;
+}
+.shipcategories {
+  margin-top: 40px;
+}
+.row {
+  margin-top: 25px;
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.col20 {
+  width: 20%;
+}
+.col80 {
+  width: 80%;
+}
+.col80 > p {
+  font-size: 18px;
+  color: #303b91b3;
+}
+.col80 > h3 {
+  font-size: 24px;
+  color: #263f97;
+}
+.shiplearn {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 28px;
+  text-align: center;
+  color: #263f97;
+  margin-top: 60px;
+  padding-bottom: 150px;
+}
+.col30 {
+  width: 30%;
+}
+.col70 {
+  width: 70%;
+}
+
+.getstarted {
+  background-color: #263f97;
+}
+.getstartedheading {
+  width: 32%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 90px;
+}
+.getstartedheading > h3 {
+  font-size: 64px;
+}
+.getstartedsteps {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  color: #ffffff;
+  padding-bottom: 120px;
+}
+.col15 {
+  width: 15%;
+}
+.col23 {
+  width: 23%;
+}
+.col24 {
+  width: 24%;
+}
+.img1 > img {
+  width: 245px;
+  height: 200px;
+}
+.col24 > img {
+  width: 195px;
+  height: 188px;
+}
+.img2 > img {
+  width: 205px;
+  height: 200px;
+  margin-top: -10px;
+}
+.col23 > h4 {
+  width: 90%;
+  font-size: 24px;
+  padding-top: 50px;
+}
+.col24 > h4 {
+  width: 90%;
+  font-size: 24px;
+  padding-top: 50px;
+}
+.col23 > p {
+  width: 90%;
+  font-size: 18px;
+  padding-top: 18px;
+}
+.col24 > p {
+  width: 90%;
+  font-size: 18px;
+  padding-top: 18px;
+}
+.intcar > h3 {
+  font-size: 56px;
+  color: #263f97;
+  padding-top: 50px;
+  width: 80%;
+}
+.intcar > p {
+  font-size: 16px;
+  color: #303b91b3;
+}
+.introw {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.carriers {
+  background-color: #d5e8f3;
+}
+.intcarimg > img {
+  width: 70%;
+}
+.imgrightcarrier {
+  text-align: right;
+  padding-top: 100px;
+}
+.intcarcar > h3 {
+  width: 120%;
+  font-size: 48px;
+  padding-top: 150px;
+}
+.carrow {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.faqrow {
+  width: 90%;
+  padding-top: 100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.faqcol1 > h2 {
+  font-size: 56px;
+  color: #263f97;
+  width: 40%;
+}
+.faqlist {
+  font-size: 20px;
+  color: #263f97;
+}
+.faqcol2row {
+  border-bottom: 1px solid #afafaf;
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: #263f97;
+  color: #ffffff;
+}
+.upperfooter {
+  border-bottom: 1px solid rgb(129, 129, 129);
+}
+.startshipping {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.startshipping > h3 {
+  font-size: 48px;
+}
+.startshipping > h3 > strong > span {
+  color: #95ffff;
+}
+.startshipbuttons {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.col20 {
+  width: 20%;
+}
+.col40 {
+  width: 40%;
+}
+.footernav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.col30 {
+  width: 30%;
+}
+.col10 {
+  width: 10%;
+}
+.col60 {
+  width: 60%;
+}
+.rowfooter {
+  display: flex;
+}
+.col25 {
+  width: 25%;
+}
+.col25 > h5 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.shipstats {
+  border-top: 1px solid #cfcfcf;
+}
+.shipstatsrow {
+  width: 80%;
+  color: #263f97;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.numbers {
+  font-size: 48px;
+}
